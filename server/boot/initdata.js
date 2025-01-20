@@ -35,13 +35,16 @@ module.exports = function(app) {
       var Member = app.models.Member;
       Member.create([{
         memberName: 'Bel Cafe',
-        memberRole: 'Vancouver'
+        memberRole: 'Vancouver',
+        teamId:1
       }, {
         memberName: 'Three Bees Coffee House',
-        memberRole: 'San Mateo'
+        memberRole: 'San Mateo',
+        teamId:1
       }, {
         memberName: 'Caffe Artigiano',
-        memberRole: 'Vancouver'
+        memberRole: 'Vancouver',
+        teamId:1
       }, ], cb);
     });
   }
