@@ -1,0 +1,22 @@
+{
+  "postgreDs": {
+    "host": "172.17.0.1",
+    "port": 5433,
+    "database": "docker_user",
+    "password": "docker_user",
+    "name": "postgreDs",
+    "user": "docker_user",
+    "connector": "postgresql",
+    "debug": "true",
+    "min": 5,
+    "max": 200,
+    "idleTimeoutMillis": 60000,
+    "ssl": false
+  },
+  "testLocal": {
+    "name": "testLocal",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  }
+}

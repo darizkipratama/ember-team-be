@@ -1,0 +1,26 @@
+{
+  "name": "Member",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "postgresql": {
+      "schema": "public",
+      "table": "members"
+    }
+  },
+  "properties": {
+    "memberName": {
+      "type": "string",
+      "required": true,
+      "default": "defaultName"
+    },
+    "memberRole": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

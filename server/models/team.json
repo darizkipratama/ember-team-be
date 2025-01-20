@@ -1,0 +1,26 @@
+{
+  "name": "Team",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "postgresql": {
+      "schema": "public",
+      "table": "teams"
+    }
+  },
+  "properties": {
+    "teamName": {
+      "type": "string",
+      "required": true,
+      "default": "Default"
+    },
+    "teamDescription": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
