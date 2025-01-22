@@ -19,9 +19,11 @@ Access the API Explorer: Open your browser and navigate to http://localhost:3000
 ## Usage Details
 Creating Tables: To create the necessary tables in the database, run the create-table.js script:
 
-## Initializing Data: To initialize the database with sample data, the initdata.js script will automatically run when the server starts.
+## Initializing Data: 
+To initialize the database with sample data, the initdata.js script will automatically run when the server starts.
 
-## API Endpoints: The API endpoints are available under the /api path. You can use the API Explorer to interact with the endpoints.
+## API Endpoints: 
+The API endpoints are available under the /api path. You can use the API Explorer to interact with the endpoints.
 
 ## Approach
 This project uses Loopback, a highly extensible Node.js framework, to build the backend. The main components include:
